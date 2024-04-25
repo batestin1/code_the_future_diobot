@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-image: url('https://hermes.digitalinnovation.one/public/components/pages/home/how-it-works/emerging-technologies.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh; /* Define a altura do corpo igual à altura da janela de visualização */
+            margin: 0; /* Remova a margem padrão do corpo */
+            padding: 0; /* Remova o preenchimento padrão do corpo */
+        }
+    </style>
+
+    <title>DioBot</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="card card-dark mt-5">
+            <div class="card-header text-success bg-dark bg-gradient text-center">
+                DioBot
+            </div>
+            <div class="card-body bg-dark">
+                <div id="chat-container" class="position-relative bg-white p-3" style="overflow-y:scroll; height: 300px;">
+                    <!-- target to messages -->
+                </div>
+            </div>
+            <div class="card-footer bg-dark text-muted">
+                <div class="input-group mb-3">
+                    <input type="text" id="input-question" class="form-control text-success" placeholder="Do your question"
+                        onkeydown="if(event.keyCode == 13)$('#btn-send-question').trigger('click')" autofocus>
+                    <button class="btn btn-success" id="btn-send-question" type="button" onClick="goSendQuestion($('#input-question').val())">
+                        <i class="bi bi-send"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/template_javascript.js') }}"></script>
+</body>
+</html>
