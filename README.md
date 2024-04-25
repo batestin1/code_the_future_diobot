@@ -13,9 +13,9 @@
 
 >> <h2> CHATBOT </h2>
 
-    >> <h3> Passo I - Clone/FORK </h3>
+    >> Passo I - Clone/FORK </h3>
 
-    <p> 1. Clone o repositório para seu ambiente com o comando ```git clone https://github.com/batestin1/code_the_future_diobot.git```.  </p>
+    <p> 1. Clone o repositório para seu ambiente com o comando `git clone https://github.com/batestin1/code_the_future_diobot.git`.  </p>
 
     >> <h3> Passo II - Criando um ambiente virtual </h3>
 
