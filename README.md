@@ -39,7 +39,7 @@
 
 ### Passo II - Abrindo a extensão inpyb
 
-<p> 1. Existem duas maneiras de executar o arquivo `main.ipnyb`: você pode optar por ambientes como Anaconda, Jupyter Notebook ou Google Colab, ou baixar o plugin `ipynb` no Visual Studio Code. </p>
+<p> 1. Existem duas maneiras de executar o arquivo `harry_potter_redeneural.ipynb`: você pode optar por ambientes como Anaconda, Jupyter Notebook ou Google Colab (https://colab.research.google.com/drive/1XFSvpHt8u6oQOT4NXL9ZlxFHX7Z5kB__?usp=sharing), ou baixar o plugin `ipynb` no Visual Studio Code. </p>
 
 ## Transformers
 
@@ -49,4 +49,7 @@
 
 ### Passo II - Abrindo a extensão inpyb
 
-<p> 1. Existem duas maneiras de executar os arquivos `texto.ipnyb` e `finetune.ipnyb`: você pode optar por ambientes como Anaconda, Jupyter Notebook ou Google Colab, ou baixar o plugin `ipynb` no Visual Studio Code. </p>
+1. Existem duas maneiras de executar os arquivos `finetune_com_wikipedia.ipynb` ou pelo google colab (https://colab.research.google.com/drive/1havCgOIhxZ7ViW-lfIQwdP-S_AM4ygRx?usp=sharing)
+
+2. Existem duas maneiras de executar os arquivos `transformer_gerador_resumo.ipynb`  ou pelo google colab (https://colab.research.google.com/drive/14TYRy1M_ncl3hQMHnOOvz3TuNlZACqR8?usp=sharing)
+
