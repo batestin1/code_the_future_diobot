@@ -10,6 +10,8 @@
 <p> Não é necessário um grande conhecimento técnico sobre o assunto, mas é importante ter o Python 3.10 instalado ou a versão mais recente em seu ambiente. </p>
 <p> A seguir, listamos a ordem dos eventos, de acordo com cada pasta, a serem executados para que o projeto funcione em seu ambiente local. </p>
 
+--- 
+
 ## CHATBOT
 
 ### Passo I - Clone/FORK
@@ -31,6 +33,8 @@
 1. Entre no diretório onde se encontra a pasta `chatbot` e, uma vez dentro, execute o seguinte comando `python -m flask run --host=0.0.0.0 --debugger`.
 2. Após executar o comando acima, um link http://localhost:5000 será gerado, basta clicar nele para abrir o chatbot em seu navegador. 
 
+--- 
+
 ## Redes_Neurais_Artificiais
 
 ### Passo I - Clone/FORK
@@ -41,6 +45,8 @@
 
 1. Existem duas maneiras de executar o arquivo `harry_potter_redeneural.ipynb`: você pode optar por ambientes como Anaconda, Jupyter Notebook ou Google Colab (https://colab.research.google.com/drive/1XFSvpHt8u6oQOT4NXL9ZlxFHX7Z5kB__?usp=sharing), ou baixar o plugin `ipynb` no Visual Studio Code.
 
+---
+
 ## Transformers
 
 ### Passo I - Clone/FORK
@@ -49,7 +55,9 @@
 
 ### Passo II - Abrindo a extensão inpyb
 
-1. Existem duas maneiras de executar os arquivos `finetune_com_wikipedia.ipynb` ou pelo google colab (https://colab.research.google.com/drive/1havCgOIhxZ7ViW-lfIQwdP-S_AM4ygRx?usp=sharing)
+1. Existem duas maneiras de executar os arquivos `transformer_gerador_resumo.ipynb`  ou pelo google colab (https://colab.research.google.com/drive/14TYRy1M_ncl3hQMHnOOvz3TuNlZACqR8?usp=sharing)
 
-2. Existem duas maneiras de executar os arquivos `transformer_gerador_resumo.ipynb`  ou pelo google colab (https://colab.research.google.com/drive/14TYRy1M_ncl3hQMHnOOvz3TuNlZACqR8?usp=sharing)
+2. Existem duas maneiras de executar os arquivos `finetune_com_wikipedia.ipynb` ou pelo google colab (https://colab.research.google.com/drive/1havCgOIhxZ7ViW-lfIQwdP-S_AM4ygRx?usp=sharing)
+
+
 
